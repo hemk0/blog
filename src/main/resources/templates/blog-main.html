@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="uk">
+<head>
+    <title th:text="Blog-main"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="header clearfix">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="#">Home</a></li>
+                    <li role="presentation"><a href="#">About</a></li>
+                    <li role="presentation"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">Project name</h3>
+        </div>
+        <div class="container">
+            Blog
+            <p th:text="'Hello, !'"></p>
+        </div>
+
+        <footer class="footer">
+            <p>© 2015 Company, Inc.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
